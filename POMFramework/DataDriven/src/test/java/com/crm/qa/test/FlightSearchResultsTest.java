@@ -35,6 +35,7 @@ public class FlightSearchResultsTest extends Base{
 	public void doFlightSearch(String Origin,String Destination) {
 		flightSearchResults = flightSearchResults.searchFight(Origin, Destination );
 		Assert.assertTrue(flightSearchResults.searchAgainButton());
+		System.out.println("test");
 		
 	}
 

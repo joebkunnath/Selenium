@@ -1,0 +1,46 @@
+/* Page 1
+ * 
+ * Language fundamentals
+	1 Identifiers
+	2 Reserved words
+	3 Data Types
+	4 Literals
+	5 Arrays
+	6 Types of variables
+	7 variable -Array methods
+	8 Main methods
+	9 Command line arguments
+	10 Java coding standards
+*/
+
+/* Identifiers:
+A name in java program is called identifier, which can be used for identification purpose. 
+It can be Method, variable name, class name or label name
+
+eg: LanguageFundamentals, main, string,args,x are identifiers in the below code
+
+Rules & regulations:
+1. The only allowed characters in java identifiers are : a to z, A to Z, 0 to 9, $, _ 
+   we will get compile time error if we are using any character eg: total#
+2. Identifiers can not starts with numeric numbers  eg :123total - not allowed but total123 allowed
+3. Java identifiers are case sensitive eg : number, Number,NUMBER are different and allowed
+4. No length limit for java identifiers but it is not recommended 
+5. Reserved words/Keywords are not allowed eg: int if = 20 , is not allowed
+6. All predefined class name and interface name are allowed to used as identifiers
+ 
+
+*/
+public class LanguageFundamentals {
+	
+	public static void main(String[] args) {
+		int x = 10;
+//      int if = 10; not allowed, CE
+		int String = 888; //String is a class
+		System.out.println(String);
+		int Runnable = 999;
+		System.out.println(Runnable);
+		
+		int Runnable = 999;
+	}
+
+}

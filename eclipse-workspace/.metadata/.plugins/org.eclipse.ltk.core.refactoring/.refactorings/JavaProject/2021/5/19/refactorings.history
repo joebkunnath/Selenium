@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;CoreJava.java&apos; to &apos;LanguageFundamentals.java&apos;&#x0A;- Original project: &apos;JavaProject&apos;&#x0A;- Original element: &apos;CoreJava.java&apos;&#x0A;- Renamed element: &apos;LanguageFundamentals.java&apos;" description="Rename compilation unit &apos;CoreJava.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{CoreJava.java" name="LanguageFundamentals.java" references="false" stamp="1620051969495" version="1.0"/>
-</session>
